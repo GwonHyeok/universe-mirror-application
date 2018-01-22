@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const { dependencies } = require('../package.json')
 
-let whiteListedModules = ['vue', 'vue-moment']
+let whiteListedModules = ['vue']
 
 module.exports = {
     entry: {
